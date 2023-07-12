@@ -1,0 +1,55 @@
+.bg{
+    background-image: url("https://thumbs.dreamstime.com/z/modern-abstract-orange-tech-white-overlap-background-eps-vector-modern-abstract-orange-tech-white-overlap-background-160783382.jpg");
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.boxout{
+margin-left: 150px;
+padding-top: 10px;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+
+}
+.box{
+  background-color:transparent;
+  width: 900px;
+  border: 5px transparent;
+  padding: 10px;
+  margin: 20px;
+  background-size: 400px 400px;
+  height:500px;
+  text-align: center;
+  border-style: outset;
+}
+.name{
+    margin-left:32px;
+}
+.email{
+    margin-left:37px;
+}
+.password{
+    margin-left:9px;
+}
+.g1{
+    margin-top: 20px;
+    height:50px;
+    width:120px;
+}
+.contact{
+    margin-left: 20px;
+}
+input {
+    border-radius: 10px;
+    background-color:#ffb833;
+    width:320px;
+    height:40px;
+  }
+p{
+    font-size: 20px;
+}
