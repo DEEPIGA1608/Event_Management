@@ -1,0 +1,79 @@
+
+.homebg1{
+  height:155vh;
+  background-size: 1290px 700px;
+  width:100%;
+  background-size: cover;
+  background-image: url("https://img.freepik.com/free-vector/white-background-with-triangle-patterns_1017-18410.jpg?w=900&t=st=1689055919~exp=1689056519~hmac=c545043c222e7154bda011c088bd89418548ea4dedfb0c698904f2923a78b8b6");
+}
+.white{
+  color:white;
+}
+.foot1{
+  background-color:#333;
+  color:white;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wallpapercave.com/dwp2x/wp7488226.jpg");
+  height: 25%;
+  width:390px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin-top:90px;
+  margin-left: 120px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+} 
+.hero-image1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("wel14.jpg");
+  height: 25%;
+  width:390px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top:-260px;
+  float:right;
+  margin-right:160px;
+}
+.hero-text1 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+} 
+.fa-youtube {
+  margin-left: 10px;
+  color: white;
+}
+
+.fa-instagram {
+  margin-left: 10px;
+  color:white;
+}
+.fa-facebook {
+  margin-left: 10px;
+  color: white;
+}
+
+.fa-twitter {
+  margin-left: 10px;
+  color: white;
+}
+  
+ 

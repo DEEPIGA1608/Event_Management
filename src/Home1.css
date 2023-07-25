@@ -1,0 +1,222 @@
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  .q{
+    text-align: center;
+    color:white;
+  }
+  .design1{
+    color:white;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px #ff8000, 0 0 25px #ff8000, 0 0 5px #ff8000;  
+  }
+  .design2{
+    
+      color: #ff8000;
+      text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; 
+  }
+  .design3{
+    color:white;
+      text-shadow: -1px 0 #ff8000, 0 1px #ff8000, 1px 0 #ff8000, 0 -1px #ff8000; 
+  }
+  .design4{
+    color:white;
+    text-shadow: 2px 2px 4px #ff8000;
+  }
+
+  .topnav a {
+    float:left;
+    color: #f2f2f2;
+    padding-left: 20px;
+    padding: 15px 30px;
+    margin-left:25px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active{
+    background-color: #ff8000;
+    color: white;
+  }
+  .foot{
+    background-color:#333;
+    color:white;
+  
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    
+  }
+  .menubutton{
+    background-color: transparent;
+    color:white;
+    float:left;
+   
+  }
+  .hqn{
+    color:white;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  
+  .down{
+    width:30%;
+    margin-left: 450px;
+  }
+  .policy{
+    color:white;
+    margin-left: 500px;
+    text-decoration: none;
+  }
+  .hcontact{
+    color:white;
+    text-decoration: none;
+    margin-left:700px;
+    margin-top: -22px;
+
+  }
+  @media screen and (max-height: 450px) {
+    .side-panel {padding-top: 15px;}
+    .side-panel a {font-size: 18px;}
+  }
+  .side-panel {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.side-panel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #eaebed;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-panel a:hover, .offcanvas a:focus{
+    color: #ff8000;
+}
+
+.close-side-bar {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px !important;
+  margin-left: 50px;
+}
+  
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("https://wallpapercave.com/dwp2x/wp7488231.jpg");
+  min-height: 450px;
+}
+
+.bgimg-2 {
+  background-image: url("https://wallpapercave.com/dwp2x/wp7488391.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("wel1.jpg");
+  min-height: 400px;
+}
+
+.homecaption {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.homecaption span.border {
+  background-color:#111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.border{
+ background-color:transparent;
+ font-size:25px;
+ color: #f7f7f7;
+}
+.par{
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+.parup{
+  color:#ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+.pardiv1{
+  color: #777;
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+.pardiv2{
+position:relative;
+}
+.pardiv3{
+  color:#ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 80px; 
+  text-align: justify;
+}
+
+.fa-youtube {
+  margin-left: 10px;
+  color: white;
+}
+
+.fa-instagram {
+  margin-left: 10px;
+  color:white;
+
+}
+.fa-facebook {
+  margin-left: 10px;
+  color:white;
+  
+}
+
+.fa-twitter {
+  margin-left: 10px;
+  color: white;
+}
+  
+ 

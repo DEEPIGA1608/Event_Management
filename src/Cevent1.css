@@ -1,0 +1,43 @@
+.div
+{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+.picevent{
+    margin-top: 190px;
+width:550px;
+   height:200px;
+}
+.ceventoname{
+   margin-left: 360px;
+   margin-top:-55px;
+}
+.orgdelete{
+    margin-left: 5px;
+}
+.orgupdate{
+    margin-left: 5px;
+}
+.jname{
+    box-shadow: 0 0 10px white inset;
+    border-radius: 10px;
+    border: 2px solid #333;
+    background-color: transparent;
+    width:200px;
+    height:30px;
+}
+.one
+{
+    /* background-image: url("https://th.bing.com/th/id/OIP.tdqwu2dJ_-t3gySC_JdWkAHaDK?pid=ImgDet&w=151&h=83.55333333333333&c=7&dpr=1.5"); */
+    width:40%  ;
+  background-color:white;
+  
+    background-repeat: no-repeat;
+}
+.two
+{
+    background-color:orange;
+    width:60%;
+}
