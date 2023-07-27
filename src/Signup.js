@@ -5,6 +5,7 @@ import axios from 'axios'
 import React from 'react'
 import {login } from "./Redux/userSlice";
 import {useDispatch} from 'react-redux';
+import Profile from "./Profile";
 const Signup = () => {
   
 
@@ -34,12 +35,20 @@ const Signup = () => {
                  dispatch(login({ user: user.name }));
                 //  dispatch(mailin({ mail: user.mail }));
               
-               navigate('/Home1');
+               navigate('/');
                
                setName('');
                setMail('');
                setPassword('');
                setCont('');
+               let ucontact=contact;
+               localStorage.setItem('ucontact',ucontact);
+               let urole=response.data.role;
+               localStorage.setItem('urole',urole);
+               
+               <Profile user={user} />
+               console.log(urole)
+ 
                }
          }
              catch(error) {

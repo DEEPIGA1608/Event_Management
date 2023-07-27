@@ -79,37 +79,40 @@ function Cevent1() {
     return (
         <>
         <div class="div">
-        <div class="one"><img class="picevent" src="https://thumbs.dreamstime.com/z/events-poster-spectrum-brush-strokes-white-background-colorful-gradient-brush-design-vector-paper-illustration-r-events-125370358.jpg?w=992"/></div>
+        <div class="one">
+      <img class="picevent1" src="https://as1.ftcdn.net/v2/jpg/01/65/37/34/1000_F_165373429_r5eYGZeRmLyLSesZS62nTNIJkWjQlqvT.jpg"/>
+        </div>
         <div class="two">
             <form className='oform'>
             <center><label>Create Your Events & Publicize it</label></center><br></br>
             <p>Event id:   
             &nbsp;<input type="text" class="jname" value={eventid} onChange={(e)=>setEventid(e.target.value)} placeholder="Event id"/></p>
-            <p class="ceventoname">Organizer Name:
+            <p>Organizer Name:
             &nbsp;<input type="text" class="jname" value={organizer} onChange={(e)=>setOrganizer(e.target.value)} placeholder="Organizer Name"/></p>
             <p>Event name:
             &nbsp;<input type="text" class="jname" value={eventname} onChange={(e)=>setEventname(e.target.value)} placeholder="Event Name"/></p>
-            <p class="ceventoname">Capacity:
+            <p >Capacity:
             &nbsp;<input type="number" class="jname" min="1" value={capacity} onChange={(e)=>setCapacity(e.target.value)}/></p>
             <p>Date [ From ]:
             &nbsp;<input type="date" class="jname" value={fromdate} onChange={(e)=>setFdate(e.target.value)}/></p>
-            <p class="ceventoname">Date [ To ]:
+            <p>Date [ To ]:
             <input type="date" class="jname" value={todate} onChange={(e)=>setTodate(e.target.value)}/></p>
             <p >Timings [ From ]:
             &nbsp;<input type="time" class="jname" value={fromtime} onChange={(e)=>setFromtime(e.target.value)}/></p>
-            <p class="ceventoname">Timings [ To ]:
+            <p >Timings [ To ]:
             &nbsp;<input type="time" class="jname" value={totime} onChange={(e)=>setTotime(e.target.value)}/></p>
             <p>Price Per Person:
             &nbsp;<input type="number" class="jname" min="1" value={price} onChange={(e)=>setPrice(e.target.value)}/></p>
             <p>Event Venue:
-            <textarea id="lname" placeholder="Event Venue"  class="jname" rows="2" cols="10" value={venue} onChange={(e)=>setVenue(e.target.value)}/></p>
+            <textarea id="lname" placeholder="Event Venue"  class="jname" rows="10" cols="10" value={venue} onChange={(e)=>setVenue(e.target.value)}/></p>
             <p>Event Description:
             &nbsp;<textarea id="lname" placeholder="Description"  class="jname" rows="2" cols="10" value={description} onChange={(e)=>setDescription(e.target.value)}/></p>
             <p>Event Agenda:
             &nbsp;<textarea id="lname" placeholder="Agenda" class="jname"  rows="1" cols="10" value={agenda} onChange={(e)=>setAgenda(e.target.value)}/></p>
-           <br></br> <button type='Submit' className='orgsub' onClick={handleChange}>Submit</button>
-           <Link to="/Updateeve"><button type="button" className="orgupdate">Update Event</button></Link>
-            <button type="button" className="orgdelete" onClick={handleDeleteEvent}>Delete Event</button>
+           <br></br> 
+           <Link to="/Updateeve"><button type="button" className="cevbutton1">Update Event</button></Link>
+           <button type='Submit' className='cevbutton' onClick={handleChange}>Submit</button>
+            <button type="button" className="cevbutton2" onClick={handleDeleteEvent}>Delete Event</button>
           </form>
 
       </div>

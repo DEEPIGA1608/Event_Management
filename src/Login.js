@@ -3,6 +3,7 @@ import "./Login1.css"
 import {useDispatch} from 'react-redux';
 import React from 'react'
 import axios from 'axios';
+import Profile from "./Profile";
 import { login } from "./Redux/userSlice";
 import { Link,useNavigate } from "react-router-dom";
 function Login() {
@@ -30,17 +31,29 @@ function Login() {
             password: password,
           }
         );
-  
-        let user = response.data.userResponse;
-        let token = response.data.token;
-        
-        localStorage.setItem('token', token);
-        localStorage.setItem('user', JSON.stringify(user));
-  
-        // Move navigation inside the try block
         navigate('/Home1');
   
         dispatch(login({ user: name }));
+        let user=response.data.userResponse;
+        let token =response.data.token;
+        let uname=name;
+        let uemail=email;
+        let upass=password;
+        let uid=response.data.id;
+        localStorage.setItem('uid',uid);
+        localStorage.setItem('uname',uname);
+        localStorage.setItem('uemail',uemail);
+        localStorage.setItem('upass',upass);    
+        let urole=response.data.role;
+        localStorage.setItem('urole',urole);
+        // console.log(uid);
+        console.log(urole)
+
+             localStorage.setItem('token',token);
+             localStorage.setItem('user',JSON.stringify(user))
+             return <Profile user={user} />;
+
+        
       } catch (error) {
         console.error('Login failed:', error);
       }

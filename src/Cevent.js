@@ -17,7 +17,7 @@ export default function Cevent() {
         <a href="javascript:void(0)" className="close-side-bar" onClick={CloseSideBar}><i  class="fa fa-remove" style={{fontSize:36}}></i></a>
         <Link to="/Profile">Profile</Link>		
         <a href="https://calendar.google.com/calendar/r/eventedit">Add to Calendar</a>		
-        <a href="#">Feedback</a>		
+        <Link to="/Feedback">Feedback</Link>		
         <Link to="/Contact">Contact</Link>			
         </div>
         <div class="topnav">
@@ -38,7 +38,7 @@ export default function Cevent() {
  </p> </p>
     <p class="hero-image1">
   <p class="hero-text1">
-   <Link to="/Mevent1" class="white"> <h3>Manage exsisting events</h3></Link>
+   <Link to="/Mevent1" class="white"> <h3>View  events</h3></Link>
  </p> </p>
  <footer class="foot1">
     <br></br>

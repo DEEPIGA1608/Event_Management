@@ -143,6 +143,9 @@
   background-image: url("wel1.jpg");
   min-height: 400px;
 }
+.gfr{
+  background: linear-gradient(90deg, rgba(255,204,0,1) 0%, rgba(255,102,153,1) 49%, rgba(255,51,0,1) 100%);
+}
 
 .homecaption {
   position: absolute;

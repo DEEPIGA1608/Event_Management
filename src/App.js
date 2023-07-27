@@ -11,6 +11,7 @@ import Chatroom from './Chatroom';
 import Cevent1 from './Cevent1';
 import Updateeve from './Updateeve';
 import Ticket from './Ticket';
+import Feedback from "./Feedback"
 function App() {
   return (
     <>
@@ -27,6 +28,7 @@ function App() {
         <Route path="/Cevent1" element={<Cevent1/>}></Route>
         <Route path="/Ticket" element={<Ticket/>}></Route>
         <Route path="/Updateeve" element={<Updateeve/>}></Route>
+        <Route path="/Feedback" element={<Feedback/>}></Route>
 
     
        </Routes>

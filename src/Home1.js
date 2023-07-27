@@ -19,9 +19,9 @@ export default function Home1() {
         <div className='sidebar'></div>
         <div id = "sidePanel" className = "side-panel">
         <a href="javascript:void(0)" className="close-side-bar" onClick={CloseSideBar}><i  class="fa fa-remove" style={{fontSize:36}}></i></a>
-        <Link to="/Profile">Profile</Link>		
+        		
         <a href="https://calendar.google.com/calendar/r/eventedit">Add to Calendar</a>		
-        <a href="#">Feedback</a>		
+        <Link to="/Feedback">Feedback</Link>		
         <Link to="/Contact">Contact</Link>			
         </div>
 	<div class="topnav">

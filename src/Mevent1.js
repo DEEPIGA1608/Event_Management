@@ -2,7 +2,7 @@ import axios from "axios";
 import React from "react";
 import { useState,useEffect } from "react";
 import { Link } from 'react-router-dom';
-
+import "./Home1.css"
 
 
 function Mevent1() {
@@ -32,14 +32,15 @@ function Mevent1() {
     fetchAllDetails();
   }, []);
  return ( 
-  <div>
+  <div class="gfr">
         {allDetails.map((eventData) => (
-          <div key={eventData._id}>
+          <div style={{border:"2px solid black",height:"670px",width:"500px"}} key={eventData._id}>
             <Link to={{
                 pathname: '/Ticket',
                 state: { eventData }, // Pass the event details as state
               }}
             >
+              
               <h2>{eventData.eventname}</h2>
             </Link>
             <p>Organizer: {eventData.organizername}</p>
@@ -53,7 +54,11 @@ function Mevent1() {
             <p>Agenda: {eventData.eventagenda}</p>
             <p>Capacity: {eventData.capacity}</p>
             <p>Price Per Person: {eventData.priceperperson}</p>
-            
+            <Link
+              to={`/Ticket?data1=${encodeURIComponent(eventData.priceperperson)}&data2=${encodeURIComponent(eventData.eventname)}`}
+            >
+              <button>Book Tickets</button>
+            </Link>
           </div>
         ))}
         </div>
